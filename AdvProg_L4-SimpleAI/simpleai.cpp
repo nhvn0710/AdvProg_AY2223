@@ -160,7 +160,7 @@ bool isWholeWord(const string& mask)
 {
      bool answer;
     //Write your code here
-    bool answer = true;
+    answer = true;
     for (auto c : mask){
         if (c < 'a' || c > 'z'){
             answer = false;
